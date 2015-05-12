@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+
+    <string-array name="element_laterales">
+        <item>Facebook BUAP</item>
+        <item>Twitter BUAP</item>
+        <item>Sugerencias</item>
+        <item>Desarrolladores</item>
+    </string-array>
+    <string-array name="nav_icon">
+        <item>@drawable/ima_vacia</item>
+        <item>@drawable/face</item>
+        <item>@drawable/twit</item>
+    </string-array>
+
+    <string name="title_activity_web">WebActivity</string>
+    <string name="title_activity_desarrollador">DesarrolladorActivity</string>
+
+</resources>

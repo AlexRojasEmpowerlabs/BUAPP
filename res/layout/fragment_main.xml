@@ -1,0 +1,162 @@
+<android.support.v4.widget.DrawerLayout
+        android:id="@+id/navLayout"
+         xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.buap.buapp2.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+             <WebView 
+        android:id="@+id/test"
+        android:layout_weight=".90"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+    <ScrollView 
+        android:layout_height="fill_parent"
+        android:layout_weight=".10"
+        android:layout_width="fill_parent">
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8sp"
+        android:layout_width="match_parent">
+        <Button
+            android:id="@+id/btn1"
+            android:background="@drawable/fondo_amarillo"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Servicio de Transporte Universitario"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/stu" />
+        <Button
+            android:id="@+id/btn2"
+            android:background="@drawable/fondo_rojo"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Buap"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/buap" />
+        <Button
+            android:id="@+id/btn3"
+            android:background="@drawable/fondo_blue"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Servicios Buap"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/aut" />
+        <Button
+            android:id="@+id/btn4"
+            android:background="@drawable/fondo_morado"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="DGB"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/dgb" />
+        <Button
+            android:id="@+id/btn5"
+            android:background="@drawable/fondo_zul"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Facultad de Lenguas"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/lenguas" />
+        <Button
+            android:id="@+id/btn6"
+            android:background="@drawable/fondo_verde"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Biblioteca"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/direccion" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:background="@drawable/fondo_negro"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Complejo Cultural Universitario"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:drawableRight="@drawable/ccu" />
+        <Button
+            android:id="@+id/btn8"
+            android:background="@drawable/fondo_gris"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Lobos Buap FC"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/lob" />
+        <Button
+            android:id="@+id/btn9"
+            android:background="@drawable/fondo_cafe"
+            android:layout_width="fill_parent"
+            android:layout_height="100sp"
+ 			android:drawablePadding="50sp"
+			android:layout_marginTop="10dp"
+        	android:layout_gravity="right"
+            android:text="Calendario"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:onClick="next"
+            android:drawableRight="@drawable/cal" />
+
+    </LinearLayout>
+    </ScrollView>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/it"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:background="#41586E"
+            android:choiceMode="singleChoice"
+            android:divider="#2E2E2E"
+            android:dividerHeight="2dp"
+            android:textColor="#424242" >
+        </ListView>
+
+</android.support.v4.widget.DrawerLayout>
